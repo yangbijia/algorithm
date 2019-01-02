@@ -1,0 +1,37 @@
+RB-INSERT-FIXUP(T, z)
+
+//如果z的父节点是红色，则进入以下循环，如果是黑色则跳出无需操作
+while color[p[z]] == RED
+	//如果z的父节点是z的祖父节点的左节点，则将y指向z的父节点的叔叔节点
+	do if p[z] == left[p[p[z]]]
+		then y <- right[p[p[z]]]
+			//如果z的叔叔节点为红色，1.将z的父节点设为黑色，2.将祖父节点设为红色，3.将z指向其祖父节点
+			if color[y] == RED
+				then color[p[z]] <- BLACK
+					 color[y] <- BLACK
+					 color[p[p[z]]] <- RED
+					 z <- p[p[z]]
+			//如果z的叔叔节点不为红色，而且z是父节点的右节点，1.将z指向其父节点，2.对z点进行左旋
+			else if z == right[p[z]]
+				then z <- p[z]
+					 LEFT-ROTATE(T, z)
+				color[p[z]] <- BLACK
+				color[p[p[z]]] <- RED
+				RIGHT-ROTATE(T, p[p[z]])
+	//如果z的父节点是z的祖父节点的右节点，与上同理
+	else p[z] == right[p[p[z]]]
+		then y <- left[p[p[z]]]
+			if color[y] == RED
+				then color[p[z]] <- BLACK
+					 color[y] <- BLACK
+					 clolor[p[p[z]]] <- RED
+					 z <- p[p[z]]
+			else if z == left[p[z]]
+				then z <- p[z]
+					 RIGHT-ROTATE(T, z)
+				color[p[z]] <- BLACK
+				color[p[p[z]]] <- RED
+				LEFT-ROTATE(T, p[p[z]])
+	color[root[T]] <- BLACK
+
+

@@ -1,0 +1,52 @@
+RB-DELETE-FIXUP(T, x)
+
+//x不是根节点，而且x的颜色为黑，则进入循环体
+while x != root[T] and color[x] == BLACK
+	//如果x是父节点的左节点，则将w指向x的叔叔节点
+ 	do if x == left[p[x]]
+ 		then w <- right[p[x]]
+ 		//w为红色，则将w设为黑色，x的父节点设为红色，对x的父节点进行左旋，将w指向x的叔叔节点
+		if color[w] == RED
+			then color[w] <- BLACK
+				 color[p[x]] <- RED
+				 LEFT-ROTATE(T, p[x])
+				 w <- right[p[x]]
+		//经过执行上个if代码段，此时w必为黑色
+		//w的左右子节点为黑色，则将w设为红色，x指向x的父节点
+		if color[left[w]] == BLACK and color[right[w]] == BLACK
+			then color[w] <- RED
+				 x <- p[x]
+		//经过执行上个if代码段，此时w的左右子节点不都为黑色
+		//w的右子节点为黑色，则将w的左子节点设为黑色，w设为红色，对w进行右旋，将w指向x的叔叔节点
+		else if color[right[w]] == BLACK
+			then color[left[w]] <- BLACK
+				 color[w] <- RED
+				 RIGHT-ROTATE(T, w)
+				 w <- right[p[x]]
+			color[w] <- color[p[x]]
+			color[p[x]] <- BLACK
+			color[right[w]] <- BLACK
+			LEFT-ROTATE(T, p[x])
+			x <- root[T]
+	//如果x是父节点的左节点，与上同理
+	else if x == right[p[x]]
+ 		then w <- left[p[x]]
+		if color[w] == RED
+			then color[w] <- BLACK
+				 color[p[x]] <- RED
+				 RIGHT-ROTATE(T, p[x])
+				 w <- left[p[x]]
+		if color[right[w]] == BLACK and color[left[w]] == BLACK
+			then color[w] <- RED
+				 x <- p[x]
+		else if color[left[w]] == BLACK
+			then color[right[w]] <- BLACK
+				 color[w] <- RED
+				 LEFT-ROTATE(T, w)
+				 w <- left[p[x]]
+			color[w] <- color[p[x]]
+			color[p[x]] <- BLACK
+			color[left[w]] <- BLACK
+			RIGHT-ROTATE(T, p[x])
+			x <- root[T]
+color[x] <- BLACK

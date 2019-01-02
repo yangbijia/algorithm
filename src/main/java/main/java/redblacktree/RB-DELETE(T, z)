@@ -1,0 +1,31 @@
+RB-DELETE(T, z)
+
+//z的左右子节点为空
+if left[z] == nil[T] or right[z] == nil[T]
+	then y <- z
+//z的左右子节点至少有一个不为空，则将y指向z的后继（z的右子树的最左节点）
+else y <- TREE-SUCCESSOR(z)
+//y的左子节点不为空，则将x指向y的左子节点
+if left[y] != nil[T]
+	then x <- left[y]
+//y的左子节点为空，则将x指向y的右子节点
+else x <- right[y]
+//将x的父节点指向y的父节点
+p[x] <- p[y]
+//y的父节点为空，则将x设为父节点
+if p[y] == nil[T]
+	then root[T] <- x
+//y是父节点的左子节点，则将y的左子节点指向x
+else if y == left[p[y]]
+	then left[p[y]] <- x
+//y是父节点的右子节点，则将y的右子节点指向x
+else right[p[y]] <- x
+//y和z不是同一节点，则将y的数据拷贝给z
+if y != z
+	then key[z] <- key[y]
+		 copy y's satellite data into z //将y的数据拷贝给z
+//y的颜色为黑，则执行恢复红黑树性质的函数RB-DELETE-FIXUP
+if color[y] == BLACK
+	then RB-DELETE-FIXUP(T, x)
+return y
+
