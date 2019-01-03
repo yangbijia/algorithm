@@ -26,16 +26,17 @@
     <session id="1553368913">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="7" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -73,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            <state relative-caret-position="295">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,17 +86,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="300">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/TreeNodeUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="264" column="50" selection-start-line="264" selection-start-column="50" selection-end-line="264" selection-end-column="50" />
+            <state relative-caret-position="-57">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="docComment;method#leftRotate#0;class#TreeNodeUtil#0" />
                 <element signature="method#leftRotate#0;class#TreeNodeUtil#0" />
@@ -108,12 +112,12 @@
                 <element signature="docComment;method#insertFixup#0;class#TreeNodeUtil#0" />
                 <element signature="method#insertFixup#0;class#TreeNodeUtil#0" />
                 <element signature="docComment;method#delete#0;class#TreeNodeUtil#0" />
+                <element signature="method#delete#0;class#TreeNodeUtil#0" />
                 <element signature="docComment;method#deleteFixup#0;class#TreeNodeUtil#0" />
                 <element signature="docComment;method#successor#0;class#TreeNodeUtil#0" />
                 <element signature="docComment;method#minimum#0;class#TreeNodeUtil#0" />
                 <element signature="method#minimum#0;class#TreeNodeUtil#0" />
                 <element signature="docComment;method#showRBT#0;class#TreeNodeUtil#0" />
-                <element signature="method#showRBT#0;class#TreeNodeUtil#0" />
                 <element signature="docComment;method#countHigh#0;class#TreeNodeUtil#0" />
                 <element signature="method#countHigh#0;class#TreeNodeUtil#0" />
                 <element signature="docComment;method#search#0;class#TreeNodeUtil#0" />
@@ -131,17 +135,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/RB-DELETE(T, z)">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="105">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/RB-INSERT-FIXUP(T, z)">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="375">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -149,7 +153,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32475">
+            <state relative-caret-position="32415">
               <caret line="2233" column="32" selection-start-line="2233" selection-start-column="32" selection-end-line="2233" selection-end-column="32" />
               <folding>
                 <element signature="e#19327#19328#0" expanded="true" />
@@ -164,7 +168,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quicksort/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="525">
               <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -221,10 +225,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="367" />
-    <option name="y" value="23" />
-    <option name="width" value="1073" />
-    <option name="height" value="877" />
+    <option name="x" value="62" />
+    <option name="y" value="122" />
+    <option name="width" value="1024" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -269,7 +273,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546426686829" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546426698810" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -390,18 +394,20 @@
       <workItem from="1545390084383" duration="1568000" />
       <workItem from="1545993264329" duration="5722000" />
       <workItem from="1546072718282" duration="32223000" />
-      <workItem from="1546426565543" duration="115000" />
+      <workItem from="1546426565543" duration="182000" />
+      <workItem from="1546489116091" duration="1047000" />
+      <workItem from="1546492501358" duration="1681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133583000" />
+    <option name="totallyTimeSpent" value="136378000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="367" y="23" width="1073" height="877" extended-state="0" />
+    <frame x="62" y="122" width="1024" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15518914" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16089614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,14 +417,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5984481" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49951503" weight="0.3821656" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49951503" visible="true" weight="0.29402757" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32771823" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.4015519" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32876712" />
       <window_info anchor="bottom" id="Run with VisualVM" order="13" weight="0.49591836" />
@@ -477,16 +483,6 @@
     <MESSAGE value="11" />
     <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="(Math.pow(2, high - 1)) * 3" />
-        <watch expression="((Math.pow(2, high - 1)) - 1) * 3" />
-        <watch expression="current.level == high" />
-        <watch expression="current.parent.nil" />
-      </configuration>
-    </watches-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/A.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/BinaryOperator.java">
@@ -530,10 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding>
-            <element signature="e#2838#2839#0" expanded="true" />
-            <element signature="e#2872#2873#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -548,33 +540,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="194" column="17" selection-start-line="194" selection-start-column="17" selection-end-line="194" selection-end-column="17" />
-          <folding>
-            <element signature="e#8806#8807#0" expanded="true" />
-            <element signature="e#8859#8860#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/LEFT-ROTATE(T, x)">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/RB-DELETE(T, z)">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/RB-INSERT-FIXUP(T, z)">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="375">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32475">
+        <state relative-caret-position="32415">
           <caret line="2233" column="32" selection-start-line="2233" selection-start-column="32" selection-end-line="2233" selection-end-column="32" />
           <folding>
             <element signature="e#19327#19328#0" expanded="true" />
@@ -587,8 +575,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quicksort/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="525">
           <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -597,8 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/TreeNodeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="264" column="50" selection-start-line="264" selection-start-column="50" selection-end-line="264" selection-end-column="50" />
+        <state relative-caret-position="-57">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="docComment;method#leftRotate#0;class#TreeNodeUtil#0" />
             <element signature="method#leftRotate#0;class#TreeNodeUtil#0" />
@@ -611,34 +619,17 @@
             <element signature="docComment;method#insertFixup#0;class#TreeNodeUtil#0" />
             <element signature="method#insertFixup#0;class#TreeNodeUtil#0" />
             <element signature="docComment;method#delete#0;class#TreeNodeUtil#0" />
+            <element signature="method#delete#0;class#TreeNodeUtil#0" />
             <element signature="docComment;method#deleteFixup#0;class#TreeNodeUtil#0" />
             <element signature="docComment;method#successor#0;class#TreeNodeUtil#0" />
             <element signature="docComment;method#minimum#0;class#TreeNodeUtil#0" />
             <element signature="method#minimum#0;class#TreeNodeUtil#0" />
             <element signature="docComment;method#showRBT#0;class#TreeNodeUtil#0" />
-            <element signature="method#showRBT#0;class#TreeNodeUtil#0" />
             <element signature="docComment;method#countHigh#0;class#TreeNodeUtil#0" />
             <element signature="method#countHigh#0;class#TreeNodeUtil#0" />
             <element signature="docComment;method#search#0;class#TreeNodeUtil#0" />
             <element signature="method#search#0;class#TreeNodeUtil#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/LEFT-ROTATE(T, x)">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/RB-DELETE(T, z)">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/redblacktree/RB-INSERT-FIXUP(T, z)">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
