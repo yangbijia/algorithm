@@ -1,4 +1,4 @@
-package main.java.redblacktree;
+package redblacktree;
 
 import java.util.Arrays;
 import java.util.List;
