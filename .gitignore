@@ -1,2 +1,4 @@
 out/
 src/main/java/test
+.idea/
+*.iml

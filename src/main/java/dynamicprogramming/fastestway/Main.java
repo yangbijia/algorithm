@@ -1,4 +1,4 @@
-package fastestway;
+package dynamicprogramming.fastestway;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -46,7 +46,7 @@ public class Main {
     static List<List<Integer>> l = Arrays.stream(new Integer[][]{{-1, -1, -1, -1, -1},{-1, -1, -1, -1, -1}})
             .map(integers -> Arrays.asList(integers))
             .collect(Collectors.toList());
-    static List<Station> way = new LinkedList<>();
+    static List<dynamicprogramming.fastestway.Station> way = new LinkedList<>();
 
 
     public static void main(String[] args) {
@@ -61,7 +61,6 @@ public class Main {
 //        LineAndTime min = min(lastTimeList);
 //        System.out.println("fatestTime = " + min.getTime());
 //        printWay(min);
-
 
         // 时间表打印
         for (int i = 0; i < f.size(); i++) {
@@ -146,11 +145,13 @@ public class Main {
      */
     public static void fastway() {
         int i,j;
+        // 开始节点初始化
         for (i = 0; i < line_size; i++) {
             Integer fi1 = enter.get(i) + station.get(i).get(0);
             f.get(i).set(0, fi1);
         }
         LineAndTime currentLineAndTime;
+        // 找出到每个节点时间最短的路径，综合考虑到上一个节点的最短路径和到本节点是否需要移动线路的代价
         for (j = 1; j < station_size; j++) {
             for (i = 0; i < line_size; i++) {
                 List<Integer> times = new ArrayList<Integer>();

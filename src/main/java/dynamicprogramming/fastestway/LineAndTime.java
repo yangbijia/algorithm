@@ -1,4 +1,4 @@
-package fastestway;
+package dynamicprogramming.fastestway;
 
 /**
  * @author bijiayang

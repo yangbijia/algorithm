@@ -356,9 +356,11 @@ public class TreeNodeUtil {
         root.width = baseSpace/2;
         gstack.push(root);
         boolean end = true;
+        int level = 0;
 
         while (end) {
             end = false;
+            level++;
             Stack stack = new Stack();
 
             System.out.println();
@@ -369,7 +371,7 @@ public class TreeNodeUtil {
 
                 print.delete(0, print.length());
 
-                int firstSpaceAmount = baseSpace / (int) Math.pow(2, current.level);
+                int firstSpaceAmount = baseSpace / (int) Math.pow(2, level);
                 int spaceAmount;
                 if (current.parent == null) {
                     spaceAmount = current.width;
@@ -390,7 +392,7 @@ public class TreeNodeUtil {
                         print.append(" ");
                     }
                 }
-                if (current.level == high && current.parent.nil) {
+                if (level == high && current.parent.nil) {
                     print.append(String.format("%" + maxDataWidth + "s", " "));
                 }else if (current.red) {
                     print.append(String.format("%" + maxDataWidth + "s", "[" + current.value + "]"));

@@ -1,4 +1,4 @@
-package matrixchainmultiply;
+package dynamicprogramming.matrixchainmultiply;
 
 import java.util.List;
 import java.util.stream.Collectors;
