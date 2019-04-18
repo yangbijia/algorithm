@@ -80,7 +80,7 @@ public class Main {
     }
 
     /**
-     * 迭代贪心算法
+     * 迭代贪心算法，以上的一个子问题的向下尾递归完全可以转为迭代算法
      * @return
      */
     public static List<Integer> greedyActivitySelector() {

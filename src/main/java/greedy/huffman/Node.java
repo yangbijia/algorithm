@@ -18,21 +18,11 @@ public class Node {
 
     public Integer width;
 
-    public Integer level;
-
     public Node() {}
 
     public Node(String charactor, Integer frequency) {
         this.charactor = charactor;
         this.frequency = frequency;
-    }
-
-    public Node(String charactor, Integer frequency, Node left, Node right, Node parent) {
-        this.charactor = charactor;
-        this.frequency = frequency;
-        this.left = left;
-        this.right = right;
-        this.parent = parent;
     }
 
 }
